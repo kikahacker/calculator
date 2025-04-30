@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\blockchain\\source\\repos\\ConsoleApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\blockchain\\source\\repos\\calculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CD2A737-618A-4DC3-BCC6-29A2F2E34DCD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\blockchain\\source\\repos\\consoleapp1\\consoleapp1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CD2A737-618A-4DC3-BCC6-29A2F2E34DCD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CD2A737-618A-4DC3-BCC6-29A2F2E34DCD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\blockchain\\source\\repos\\consoleapp1\\consoleapp1\\nunittestitem1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6CD2A737-618A-4DC3-BCC6-29A2F2E34DCD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\blockchain\\source\\repos\\calculator\\consoleapp1\\nunittestitem1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CD2A737-618A-4DC3-BCC6-29A2F2E34DCD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\nunittestitem1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CD2A737-618A-4DC3-BCC6-29A2F2E34DCD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\blockchain\\source\\repos\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6CD2A737-618A-4DC3-BCC6-29A2F2E34DCD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\blockchain\\source\\repos\\calculator\\consoleapp1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CD2A737-618A-4DC3-BCC6-29A2F2E34DCD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CD2A737-618A-4DC3-BCC6-29A2F2E34DCD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\blockchain\\source\\repos\\calculator\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CD2A737-618A-4DC3-BCC6-29A2F2E34DCD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,15 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\calculator\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\calculator\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -39,26 +39,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "NUnitTestItem1.cs",
-              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\ConsoleApp1\\ConsoleApp1\\NUnitTestItem1.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\calculator\\ConsoleApp1\\NUnitTestItem1.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\NUnitTestItem1.cs",
-              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\ConsoleApp1\\ConsoleApp1\\NUnitTestItem1.cs",
-              "RelativeToolTip": "ConsoleApp1\\NUnitTestItem1.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAIA7wFsAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\calculator\\ConsoleApp1\\NUnitTestItem1.cs*",
+              "RelativeToolTip": "ConsoleApp1\\NUnitTestItem1.cs*",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAowH8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T08:03:12.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\calculator\\ConsoleApp1\\Class1.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Class1.cs",
-              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Class1.cs*",
-              "RelativeToolTip": "ConsoleApp1\\Class1.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\calculator\\ConsoleApp1\\Class1.cs",
+              "RelativeToolTip": "ConsoleApp1\\Class1.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAEwCUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T07:47:08.153Z",
               "EditorCaption": ""

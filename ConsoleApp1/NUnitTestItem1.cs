@@ -93,4 +93,39 @@ public class NUnitTestItem1
     {
         Assert.Throws<FormatException>(() => aga.Calculate("FDSF"));
     }
+    [Test]
+    public void DoubleWithPoint()
+    {
+        double result = aga.Calculate("18.2 * 4");
+        Assert.AreEqual(72.8, result);
+    }
+    [Test]
+    public void DoubleWithComma()
+    {
+        double result = aga.Calculate("18,2 * 4");
+        Assert.AreEqual(72.8, result);
+    }
+    [Test]
+    public void Calculate_BrokenBrackets_ReturnsError()
+    {
+        Assert.Throws<FormatException>(() => aga.Calculate("(2+3]"));
+    }
+    [Test]
+    public void Calculate_SimpleAdditionFDoubleNum_ReturnsCorrectResult()
+    {
+        double result = aga.Calculate("45,63562+334,6347457");
+        Assert.AreEqual(380.27, result); 
+    }
+    [Test]
+    public void Calculate_ExponentiationBigNum_ReturnsBrokenResult()
+    {
+        var result = aga.Calculate("34346^587");
+        Assert.AreEqual(-1, result);
+    }
+    [Test]
+    public void Calculate_SqrtWitwPow()
+    {
+        var result = aga.Calculate("25^(1/2)");
+        Assert.AreEqual(5, result);
+    }
 }

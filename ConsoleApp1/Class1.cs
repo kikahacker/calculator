@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Numerics;
 using System.Runtime.InteropServices;
@@ -11,6 +12,7 @@ namespace ConsoleApp1
 {
     internal class Class1
     {
+        
          public double Calculate(string input)
         {
             bool good = true;
@@ -27,7 +29,15 @@ namespace ConsoleApp1
                 string output = GetExpression(input);
                 double result = Counting(output);
                 result = Math.Round(result, 2, MidpointRounding.AwayFromZero);
-                return result;
+                if (double.IsInfinity(result))
+                {
+                    return -1;
+                }
+                else
+                {
+                    return result;
+                }
+                    
             }
             else 
             {
@@ -114,7 +124,14 @@ namespace ConsoleApp1
                         i++;
                         if (i == input.Length) break;
                     }
-                    temp.Push(double.Parse(a)); 
+                    foreach(char d in a)
+                    {
+                        if (d == ',')
+                        {
+                            a = a.Replace(',','.');
+                        }
+                    }
+                    temp.Push(double.Parse(a,CultureInfo.InvariantCulture)); 
                     i--;
                 }
                 else if (IsOperator(input[i])) 
